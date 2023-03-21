@@ -1,4 +1,3 @@
-/* eslint-disable */
 const domBookList = document.getElementById("book-list");
 const inputTitle = document.getElementById("input-title");
 const inputAuthor = document.getElementById("input-author");
@@ -38,19 +37,19 @@ function drawBooks() {
     const removeBtn = document.querySelector(`#remove_btn_${index}`);
     removeBtn.addEventListener("click", () => {
       removeBook(index);
-      drawBooks();
+      // drawBooks();
     });
   });
 
   localStorage.setItem("bookList", JSON.stringify(bookList));
 }
 
-drawBooks();
+// drawBooks();
 
 function addBook(title, author) {
   if (title && author) {
     bookList.push({ title, author });
-    drawBooks();
+    // drawBooks();
   }
 }
 
