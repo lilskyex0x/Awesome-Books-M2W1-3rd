@@ -99,9 +99,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- [ ] **[local_storage]**
+- [ ] **[add_button_and_functionality]**
+- [ ] **[add_remove_and_functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -207,9 +207,10 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+ **BADRU NDAWULA**
+- GitHub: [@badru](https://github.com/PrinceBadru)
+- Twitter: [@badru](https://twitter.com/BadruNdawula)
+- Linkedin: [@badru](https://www.linkedin.com/in/badru-ndawula-930b7b217/)
 
 👤 **Author2**
 
@@ -225,9 +226,8 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[better_designs]**
+- [ ] **[more_content_on_the_page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
