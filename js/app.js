@@ -1,9 +1,9 @@
-const domBookList = document.getElementById("book-list");
-const inputTitle = document.getElementById("input-title");
-const inputAuthor = document.getElementById("input-author");
-const buttonAdd = document.getElementById("button-add");
+const domBookList = document.getElementById('book-list');
+const inputTitle = document.getElementById('input-title');
+const inputAuthor = document.getElementById('input-author');
+const buttonAdd = document.getElementById('button-add');
 
-const stringBookList = localStorage.getItem("bookList");
+const stringBookList = localStorage.getItem('bookList');
 
 let bookList = [];
 
@@ -35,28 +35,28 @@ function drawBooks() {
 
   bookList.forEach((book, index) => {
     const removeBtn = document.querySelector(`#remove_btn_${index}`);
-    removeBtn.addEventListener("click", () => {
+    removeBtn.addEventListener('click', () => {
       removeBook(index);
-      // drawBooks();
+      drawBooks();
     });
   });
 
-  localStorage.setItem("bookList", JSON.stringify(bookList));
+  localStorage.setItem('bookList', JSON.stringify(bookList));
 }
 
-// drawBooks();
+drawBooks();
 
 function addBook(title, author) {
   if (title && author) {
     bookList.push({ title, author });
-    // drawBooks();
+    drawBooks();
   }
 }
 
-buttonAdd.addEventListener("click", (event) => {
+buttonAdd.addEventListener('click', (event) => {
   event.preventDefault();
   addBook(inputTitle.value, inputAuthor.value);
 
-  inputTitle.value = "";
-  inputAuthor.value = "";
+  inputTitle.value = '';
+  inputAuthor.value = '';
 });
