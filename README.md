@@ -48,7 +48,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Coming soon](https://github.com/lilskyex0x)
+- [live server](https://lilskyex0x.github.io/Awesome-Books-M2W1-3rd/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
